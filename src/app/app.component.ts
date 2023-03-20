@@ -35,13 +35,13 @@ export class AppComponent {
   }
 
   decryption() {
-    let text = {
-      name: "ankit",
-      pass: "yendra",
-      login: "vikas"
-    }
+    // let text = {
+    //   name: "ankit",
+    //   pass: "yendra",
+    //   login: "vikas"
+    // }
 
-    this.variable = JSON.stringify(text)
+    // this.variable = JSON.stringify(text)
     let obj = {
       key: "Password",
       decKey:  this.encryptedData
