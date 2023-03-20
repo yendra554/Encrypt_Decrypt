@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
+import { EncryptService } from './encrypt.service';
 
 @NgModule({
   declarations: [
@@ -13,10 +14,10 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule, 
-    FormsModule,
+    FormsModule
     
   ],
-  providers: [],
+  providers: [EncryptService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
